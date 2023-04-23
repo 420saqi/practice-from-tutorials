@@ -28,7 +28,7 @@ var customopacity =1.0;
 
     _animationController= AnimationController(vsync: this, duration: Duration(seconds: 4));
       _animation =Tween(begin: 0.0, end: customopacity).animate(_animationController);
-// color = ColorTween(begin: Colors.red, end: Colors.blue).animate(_animationController);
+color = ColorTween(begin: Colors.red, end: Colors.blue).animate(_animationController);
       _animationController.addListener(() {
   setState(() {
   });
